@@ -3,9 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import ProductDetail from "./components/product_detail";
-import Orders from "./components/orders";
-import Product from "./components/product";
+import Product from "./components/ProductComponent";
+import ProductDetail from "./components/ProductDetailComponent";
+import Orders from "./components/ProductOrder";
+
+
 
 export default function App() {
 

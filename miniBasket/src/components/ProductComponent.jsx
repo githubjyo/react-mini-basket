@@ -1,5 +1,5 @@
 import React from "react";
-import ProductData from "./product_data";
+import ProductData from "./ProductDataComponent";
 export default class Product extends React.Component {
     constructor() {
         super()
