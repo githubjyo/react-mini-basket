@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Product from "./components/product";
 import ProductDetail from "./components/product_detail";
 import Orders from "./components/orders";
+import Product from "./components/product";
 
 export default function App() {
 
